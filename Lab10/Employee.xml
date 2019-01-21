@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.7.7
+- https://www.phpmyadmin.net
+-
+- Host: localhost:3306
+- 생성 시간: 18-04-15 13:08
+- 서버 버전: 10.1.32-MariaDB
+- PHP 버전: 5.6.30
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="oceanpla_cst8238" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="Employee">
+                CREATE TABLE `Employee` (
+                  `EmployeeId` int(11) NOT NULL AUTO_INCREMENT,
+                  `firstName` varchar(50) NOT NULL,
+                  `lastName` varchar(50) NOT NULL,
+                  `email` varchar(50) NOT NULL,
+                  `telNumber` varchar(50) NOT NULL,
+                  `sinNumber` varchar(50) NOT NULL,
+                  `password` varchar(50) NOT NULL,
+                  PRIMARY KEY (`EmployeeId`)
+                ) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - 데이터베이스: 'oceanpla_cst8238'
+    -->
+    <database name="oceanpla_cst8238">
+        <!-- 테이블 Employee -->
+        <table name="Employee">
+            <column name="EmployeeId">2</column>
+            <column name="firstName">james</column>
+            <column name="lastName">jeong</column>
+            <column name="email">james@world.com</column>
+            <column name="telNumber">1234</column>
+            <column name="sinNumber">1234</column>
+            <column name="password">1234</column>
+        </table>
+        <table name="Employee">
+            <column name="EmployeeId">4</column>
+            <column name="firstName">asd</column>
+            <column name="lastName">asdf</column>
+            <column name="email">asdfw@123.com</column>
+            <column name="telNumber">123</column>
+            <column name="sinNumber">1234</column>
+            <column name="password">124512</column>
+        </table>
+        <table name="Employee">
+            <column name="EmployeeId">5</column>
+            <column name="firstName">zxcx</column>
+            <column name="lastName">qwerwq</column>
+            <column name="email">asdf@123.com</column>
+            <column name="telNumber">1234</column>
+            <column name="sinNumber">3939</column>
+            <column name="password">4040</column>
+        </table>
+        <table name="Employee">
+            <column name="EmployeeId">6</column>
+            <column name="firstName">12314124</column>
+            <column name="lastName">123123</column>
+            <column name="email">123123@123.com</column>
+            <column name="telNumber">123123</column>
+            <column name="sinNumber">41341</column>
+            <column name="password">1231231</column>
+        </table>
+        <table name="Employee">
+            <column name="EmployeeId">7</column>
+            <column name="firstName">test1</column>
+            <column name="lastName">test1</column>
+            <column name="email">test1@test.com</column>
+            <column name="telNumber">1234123</column>
+            <column name="sinNumber">1234</column>
+            <column name="password">1234</column>
+        </table>
+        <table name="Employee">
+            <column name="EmployeeId">8</column>
+            <column name="firstName">test2</column>
+            <column name="lastName">test2</column>
+            <column name="email">test2@test.com</column>
+            <column name="telNumber">1234</column>
+            <column name="sinNumber">1234</column>
+            <column name="password">12</column>
+        </table>
+        <table name="Employee">
+            <column name="EmployeeId">9</column>
+            <column name="firstName">John</column>
+            <column name="lastName">d</column>
+            <column name="email">jdobieca@gmail.com</column>
+            <column name="telNumber">1234567</column>
+            <column name="sinNumber">040659609</column>
+            <column name="password">password</column>
+        </table>
+        <table name="Employee">
+            <column name="EmployeeId">10</column>
+            <column name="firstName">r</column>
+            <column name="lastName">c</column>
+            <column name="email">r@gmail.com</column>
+            <column name="telNumber">123</column>
+            <column name="sinNumber">123</column>
+            <column name="password">123</column>
+        </table>
+    </database>
+</pma_xml_export>

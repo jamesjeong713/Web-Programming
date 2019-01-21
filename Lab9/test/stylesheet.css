@@ -1,0 +1,275 @@
+*
+{
+  text-align: center;
+  font-family: "TimesNewRoman", serif, cursive;
+  font-size: 11px;
+  background-color: #fff;
+}
+
+body
+{
+  margin: 0;
+  padding: 0;
+}
+
+p
+{
+  font-size: 15px;
+}
+
+#labcontent
+{
+  text-align: center;
+}
+
+#header
+{
+  position:fixed;
+  top: 1%;
+  left:2.5%;
+
+  height: 14.5%;
+  width:95%;
+
+  /* border: 2px solid #000; */
+  background-color: #484747;
+    background-image: url(https://www.yc.ac.kr/img/sub/sub_img9.jpg);
+  background-repeat: no-repeat;
+  background-size: 1900px 250px;
+}
+
+#header h1
+{
+  background-color: #484747;
+  color: #fff;
+  font-style: oblique;
+  font-family: monospace;
+  font-weight: 200;
+  font-variant: small-caps;
+  font-size: 20;
+}
+
+#menu
+{
+  position: fixed;
+  top: 17%;
+  left: 2.5%;
+  min-width:32%;
+  max-width:32%;
+
+  min-height:65%;
+  max-height:65%;
+
+  border: 2px solid #000;
+  background-color: #fff;
+  display: inline-block;
+}
+
+#content
+{
+  position: fixed;
+  top: 17%;
+  left:35.5%;
+
+  min-width: 62%;
+  max-width: 62%;
+
+  min-height: 65%;
+  max-height: 65%;
+
+  border: 2px solid #000;
+  background-color: #fff;
+  display: inline-block;
+  overflow:scroll;
+}
+
+#footer
+{
+  position: fixed;
+  bottom: 1%;
+
+  height: 14.5%;
+  width:95%;
+  left: 2.5%;
+
+  font-family: 'Droid Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-wrapper, #footer li, #footer ul, #footer a
+{
+  background-color: #484747;
+  color: #fff;
+  font-variant: small-caps;
+  font-size: 15;
+  list-style-type: none;
+}
+
+body {
+    background: url(https://whc.ca/promo/fr/images/shattered.jpg);
+    background-size: cover;
+    font-family: 'Comfortaa', cursive;
+    padding: 0;
+    margin: 0;
+    color: #484747;
+    justify-content: center;
+}
+
+a {
+    color: #000;
+}
+
+pre {
+    padding-left: 35px;
+    padding-bottom: 0px;
+    text-align: left;
+    white-space: pre-line;
+    margin: 5px;
+    line-height: 12px; //table border corners (webkit chrome, moz firefox, other)
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+
+    border: solid #B20040 2px;
+    border-left-style: hidden;
+    width: 135px;
+}
+
+.menu-table {
+    padding: 10px;
+    text-align: center; //table border corners (webkit chrome, moz firefox, other)
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #484747; /*#FA5A72;*/
+    border-top-style: hidden;
+    width: 160px;
+}
+
+td {
+    //border: groove 1px;
+    width: 20%;
+    text-align: left;
+    line-height: 20px;
+}
+
+td,
+a,
+font {
+    background-color: #eeefff;
+}
+/* div.site-navigation {
+    position: relative;
+    width: 200px;
+    height: 200px;
+} */
+
+div.site-navigation
+{
+    opacity: .8;
+    //background-color: #fff;
+      //border: 2px solid #000;
+      width: 170px;
+    height: 240px;
+
+    position: absolute;
+    top: 20%;
+    left: 2.5%;
+
+    max-width: 0;
+    max-height: 0;
+
+    border: auto;
+      margin: 0;
+      //padding: 4em;
+}
+
+div.labs-menu {
+    position: absolute;
+    top: 10px;
+    left: 0%;
+    width: 120px;
+    height: 100px;
+}
+
+div.labs-mini-menu {
+    position: absolute;
+    top: 140%;
+    left: 0%;
+    width: 120px;
+    height: 100px;
+}
+
+div.site-navigation .selected, div.site-navigation .selected a, div.site-navigation .selected font
+{
+  background-color: #fff;
+}
+
+.inputform fieldset
+{
+  border-color: #737171;
+  background-color: #fff;
+  color: #000;
+}
+.inputform h1
+{
+  color: #000;
+  font-size: 22px;
+}
+.inputform h4
+{
+  background-color: #D1214B;
+  color: #fff;
+  font-size: 18px;
+}
+
+input[type=Submit], input[type=Reset]
+{
+  background-color: #fff;
+  padding: 0.25em 0.25em;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 10px;
+  font-family:"Comfortaa", cursive;
+
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: initial;
+}
+
+.al /*alignLeft*/
+{
+    text-align: left;
+    float:left;
+}
+
+.ar /*alignRight*/
+{
+    text-align: right;
+    float: right;
+}
+
+input[type=text]
+{
+  position: relative;
+  width: 15%;
+  padding: 2px 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  outline: none;
+  -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus
+{
+  border: none;
+  width: 15%;
+  border-bottom: 2px solid red;
+  background-color: #3CBC8D;
+  color: #fff;
+}
