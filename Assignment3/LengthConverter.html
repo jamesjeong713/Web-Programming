@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="StyleSheet.css" />
+<title>Assignment3 - Task1</title>
+
+<script>
+	function convert() {
+		var option = prompt("Please enter a length unit(1:to convert into inch, 2:to convert into centimeter.)");
+
+		if (option == 1) {
+			do {
+				var inch = parseFloat(prompt("Please enter a length value to be converted to inch/centimeter"));
+			} while (isNaN(parseFloat(inch)));
+			var centimeter = inch * 2.54;
+			alert(inch + " inch converted to " + centimeter + " centimeters");
+		} else if (option == 2) {
+			do {
+				var centimeter = prompt("Please enter a length value to be converted to inch/centimeter");
+			} while (isNaN(parseFloat(centimeter)));
+			var inch = centimeter * 0.393701;
+			alert(centimeter + " centimeter converted to " + inch + " inch");
+		} else {
+			alert("Invalid input: Plase enter a valid number 1 or 2");
+		}
+	}
+	$(document.body).ready(function() {
+		$("#flip").click(function() {
+			$("#panel").slideDown("slow");
+		});
+	});
+</script>
+</head>
+
+<body>
+	<h2>Assignment3-Part1 - Length Conversion</h2>
+	<div id="flip">Length Conversion</div>
+	<div id="panel">This program converts from inch to centimeter and vice versa</div>
+	<input type="button" name="btnConvert" id="btnConvert"
+		onclick="convert();" value="Convert!">
+</body>
+
+</html>
